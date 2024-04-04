@@ -1,0 +1,74 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+/* banner começo*/
+#principal{
+    background-color: #FFD700;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    margin-top: 30px;
+  
+}
+
+#banner{
+  display: flex;
+}
+
+#logo{
+    width: 300px;
+    display: flex;
+    justify-content: baseline;
+   
+}
+#icones{
+    display: flex;
+    justify-content: end;
+}
+
+img #icones {
+    display: flex;
+    height: 400px;
+    top: 0;
+    right: 0;
+    width: 400px;
+    justify-content: center;
+    
+}
+
+a{
+    color: white;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#links1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+/* banner fim*/
+
+/* pagina começo*/
+
+#coelho{
+    display: flex;
+    background-color: yellowgreen;
+    justify-content: center;
+}
+
+img #coelhoimg{
+    display: flex;
+    
+}
+
+/* pagina fim*/

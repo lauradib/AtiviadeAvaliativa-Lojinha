@@ -7,7 +7,7 @@ header{
     display: flex;
    align-items: baseline;
    justify-content: center ;
-    margin-top: 250px;
+    margin-top: 150px;
     background: rgb(218,41,28);
 }
 
@@ -28,11 +28,21 @@ html{
     box-shadow: 5px 5px 5px 5px; 
     justify-content: center;
 
+
 }
+
+
 h1{
     display: flex;
     justify-content: center;
     margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+   
 }
 
 input{
@@ -40,26 +50,13 @@ input{
     height: 50px;
 }
 
-#login h3{
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    margin-left: 90px;
-    height: 30px;
-    
-}
 
-img{
-   width: 300px;
-   height: 300px;
+image{
+   width: 45%;
+   height: 45%;
    margin-top: 200px;
    display: flex;
   justify-content: baseline;
-}
-
-#links{
-    display: flex;
-    
 }
 
 
@@ -79,7 +76,7 @@ label{
     height: 30px;
     display: flex;
     align-items: center;
-    margin-top: 70px;
+    margin-top: 30px;
     margin-right: 500px;
 }
 
@@ -87,4 +84,16 @@ form{
     width: 200px;
     height: 30px;
     margin-right: 300px;
+}
+
+button{
+    display: flex;
+   background-color: rgb(52, 52, 241);
+   height: 40px;
+   width: 150px;
+   color: white;
+   gap: 30px;
+   margin-top: 20px;
+   margin-bottom: 40px;
+   align-items: center;
 }
