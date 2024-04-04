@@ -51,10 +51,9 @@ input{
 }
 
 
-image{
-   width: 45%;
-   height: 45%;
-   margin-top: 200px;
+img{
+   width: 600px;
+   height: 600px;
    display: flex;
   justify-content: baseline;
 }
@@ -87,8 +86,8 @@ form{
 }
 
 button{
-    display: flex;
-   background-color: rgb(52, 52, 241);
+  display: flex;
+   background-color: rgb(46, 46, 212);
    height: 40px;
    width: 150px;
    color: white;
@@ -96,4 +95,5 @@ button{
    margin-top: 20px;
    margin-bottom: 40px;
    align-items: center;
+   justify-content: center;
 }
