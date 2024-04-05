@@ -1,99 +1,77 @@
 *{
     margin: 0%;
     padding: 0%;
+}
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        background-color: white; 
+        background: #DA291C;
+    }
     
-}
-header{
-    display: flex;
-   align-items: baseline;
-   justify-content: center ;
-    margin-top: 150px;
-    background: rgb(218,41,28);
-}
-
-html{
-    background: rgb(218,41,28);
-}
-
-
-#login{
-    background: rgb(255,215,0);
-    background: linear-gradient(90deg, rgba(255,215,0,1) 0%, rgba(255,215,0,1) 50%, rgba(255,255,255,1) 100%);
-    color: rgb(0, 0, 0);
-    background-color:rgb(255,215,0) ;
-    display: flex;
-    width: 35%;
-    height: 500px;
-    border-radius: 30px;
-    box-shadow: 5px 5px 5px 5px; 
-    justify-content: center;
-
-
-}
-
-
-h1{
-    display: flex;
-    justify-content: center;
-    margin-top: 70px;
-    margin-bottom: 30px;
-}
-
-h3{
-    display: flex;
-    justify-content: center;
-   
-}
-
-input{
-    width: 50px;
-    height: 50px;
-}
-
-
-img{
-   width: 600px;
-   height: 600px;
-   display: flex;
-  justify-content: baseline;
-}
-
-
-input {
-    width: 200px;
-    height: 30px;
-    display: flex;
-    gap: 30px;
-    align-items: center;
-    margin-right: 100px;
+    html {
+        background: #DA291C;
+    }
     
- 
-}
-
-label{
-    width: 200px;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-    margin-right: 500px;
-}
-
-form{
-    width: 200px;
-    height: 30px;
-    margin-right: 300px;
-}
-
-button{
-  display: flex;
-   background-color: rgb(46, 46, 212);
-   height: 40px;
-   width: 150px;
-   color: white;
-   gap: 30px;
-   margin-top: 20px;
-   margin-bottom: 40px;
-   align-items: center;
-   justify-content: center;
-}
+    #login {
+        display: flex;
+        width: 70%;
+        height: 500px; 
+        border-radius: 30px;
+        background-color: 	#FFD700;
+        box-shadow: 5px 5px 5px 5px black; 
+        overflow: hidden; 
+    }
+    
+    #image {
+        flex: 1; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #formulario {
+        flex: 1; 
+        background-color: rgb(255, 255, 255); 
+        padding: 20px;
+    }
+    
+    img {
+        max-width: 100%; 
+        max-height: 100%; 
+    }
+    
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    label {
+        margin-bottom: 10px; 
+    }
+    
+    input {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px; 
+    }
+    
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: rgb(46, 46, 212);
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+    
+    h1 {
+        text-align: center; 
+        margin-top: 50px; 
+    }
+    
+    h3 {
+        text-align: center; }
+    
